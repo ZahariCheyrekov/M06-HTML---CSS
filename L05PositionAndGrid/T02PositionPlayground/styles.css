@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+div {
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+.viewport {
+    height: 500px;
+}
+
+div.viewport.blue {
+    background-image: linear-gradient(to right, #085aa9, #00cebb);
+}
+
+div.viewport.red {
+    background-image: linear-gradient(to right, #e93261, #e18201);
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    width: 300px;
+    border-radius: 4px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.50);
+}
+
+i {
+    position: absolute;
+    right: 10px;
+    bottom: 14px;
+    color: white;
+}
