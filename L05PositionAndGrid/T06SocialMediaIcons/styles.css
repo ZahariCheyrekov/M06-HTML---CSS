@@ -1,0 +1,37 @@
+nav,
+ul,
+li {
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+a {
+    color: black;
+    background-color: #eeeeeb;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.fa-facebook:hover {
+    color: #3758a9;
+}
+
+.fa-twitter:hover {
+    color: #0099fd;
+}
+
+.fa-google-plus:hover {
+    color: #ff4719;
+}
+
+.fa-linkedin:hover {
+    color: #0074c8;
+}
+
+.fa-instagram:hover {
+    color: #447fac;
+}
