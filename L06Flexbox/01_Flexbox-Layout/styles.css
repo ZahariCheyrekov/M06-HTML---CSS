@@ -21,3 +21,9 @@ header,
 footer {
     width: 100%;
 }
+
+
+
+main {
+    width: calc(70% - 1rem);
+}
