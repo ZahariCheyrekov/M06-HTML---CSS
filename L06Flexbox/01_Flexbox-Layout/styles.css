@@ -16,18 +16,14 @@ footer {
     box-shadow: 0 0 0.5em black;
 }
 
-
 header,
 footer {
     width: 100%;
 }
 
-
-
 main {
     width: calc(70% - 1rem);
 }
-
 
 aside {
     width: calc(30% - 8rem);
