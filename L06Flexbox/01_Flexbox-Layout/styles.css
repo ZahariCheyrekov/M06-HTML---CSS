@@ -15,3 +15,9 @@ footer {
     border-radius: 8px;
     box-shadow: 0 0 0.5em black;
 }
+
+
+header,
+footer {
+    width: 100%;
+}
