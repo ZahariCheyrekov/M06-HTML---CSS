@@ -27,3 +27,8 @@ footer {
 main {
     width: calc(70% - 1rem);
 }
+
+
+aside {
+    width: calc(30% - 8rem);
+}
