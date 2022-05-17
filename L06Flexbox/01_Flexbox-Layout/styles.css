@@ -6,3 +6,12 @@ body {
     flex-wrap: wrap;
 }
 
+header,
+main,
+aside,
+footer {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 0.5em black;
+}
