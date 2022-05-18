@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.site-title {
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+main {
+    margin: 30px;
+}
+
+footer {
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+}
+
+.footer-text {
+    margin: 20px;
+}
