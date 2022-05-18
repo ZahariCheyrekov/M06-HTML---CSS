@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+div.card {
+    background-color: rgb(255, 255, 255);
+    align-self: center;
+    height: 130px;
+    width: 370px;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.50);
+}
+
+div.card>h2.card-title {
+    margin: 0;
+    font-size: 20px;
+}
+
+div.card>p.card-content {
+    margin-top: 10px;
+}
