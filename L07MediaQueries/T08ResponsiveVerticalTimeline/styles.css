@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section.timeline {
+    margin: 0 auto;
+    position: relative;
+    border-width: 0.3rem;
+    border-color: rgb(153, 153, 153);
+    border-style: solid;
+    height: 100vh;
+    margin: 25px;
+}
+
+section.vertical__line {
+    height: 90%;
+    width: 1px;
+    border-color: rgb(153, 153, 153);
+    background-color: rgb(153, 153, 153);
+    border-style: solid;
+    bottom: 0;
+    margin: 0 auto;
+    transform: translateY(12%);
+}
+
