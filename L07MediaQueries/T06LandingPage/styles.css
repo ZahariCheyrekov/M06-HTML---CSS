@@ -183,3 +183,58 @@ section.newsletter__sign>form>button {
     padding: 2px;
     cursor: pointer;
 }
+
+section.testemonials {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 60vw;
+    height: 80vh;
+    margin: 0 auto;
+    align-items: center;
+}
+
+main.testemonials__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    font-size: 14px;
+    margin: 25px 0;
+}
+
+main.testemonials__info>article {
+    width: 30%;
+    text-align: center;
+}
+
+main.testemonials__info>article>img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid rgb(238, 237, 237);
+    box-shadow: 0 0 5px gray;
+}
+
+main.testemonials__info>article>p {
+    font-style: italic;
+    margin: 20px 0;
+}
+
+main.testemonials__info>article>div>h3 {
+    font-weight: bold;
+}
+
+section.testemonials>hr {
+    width: 10%;
+    background-color: black;
+    border: 1.5px solid black;
+    border-radius: 4px;
+    text-align: center;
+}
+
+section.testemonials>h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 20px;
+}
