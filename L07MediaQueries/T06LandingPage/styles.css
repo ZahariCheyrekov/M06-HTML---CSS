@@ -47,3 +47,44 @@ header>nav>ul>li>a {
     color: #000000;
     font-weight: 300;
 }
+
+section#need__a__website {
+    width: 60vw;
+    height: 20vh;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#need__a__website>article {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+section#need__a__website>i {
+    font-size: 120px;
+    text-align: center;
+    width: 30%;
+}
+
+section#need__a__website>article>h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+section#need__a__website>article>p {
+    font-family: monospace;
+    font-weight: bold;
+}
+
+section#need__a__website>article>button {
+    background-color: rgba(243, 241, 241, 0.582);
+    border-radius: 3px;
+    font-size: 12px;
+    margin: 15px 0;
+    cursor: pointer;
+}
