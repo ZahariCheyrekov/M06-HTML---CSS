@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(243, 241, 241, 0.582);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+}
+
+header>section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header>section>h2 {
+    font-family: serif;
+    color: #d10067;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+header>section>p {
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-top: 3px;
+}
+
+header>nav>ul {
+    display: flex;
+}
+
+header>nav>ul>li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+header>nav>ul>li>a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 300;
+}
+
+section#need__a__website {
+    width: 60vw;
+    height: 20vh;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section#need__a__website>article {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+section#need__a__website>i {
+    font-size: 120px;
+    text-align: center;
+    width: 30%;
+}
+
+section#need__a__website>article>h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+section#need__a__website>article>p {
+    font-family: monospace;
+    font-weight: bold;
+}
+
+section#need__a__website>article>button {
+    background-color: rgba(243, 241, 241, 0.582);
+    border-radius: 3px;
+    font-size: 12px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+section.our__team {
+    width: 60vw;
+    height: 70vh;
+    margin: 20px auto;
+}
+
+section.our__team>h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 10px;
+}
+
+section.our__team>hr {
+    width: 10%;
+    background-color: black;
+    border: 1.5px solid black;
+    border-radius: 4px;
+}
+
+section.team__members {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 40px 0;
+}
+
+section.team__members>article {
+    width: 30%;
+    text-align: center;
+}
+
+section.team__members>article>img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid rgb(238, 237, 237);
+    box-shadow: 0 0 5px gray;
+}
+
+section.team__members>article>div.team__member__info {
+    margin: 20px;
+}
+
+section.team__members>article>div.team__member__info>h3 {
+    font-weight: bolder;
+}
+
+section.team__members>article>p.team__member__about {
+    font-style: italic;
+    font-size: 14px;
+}
+
+section.newsletter__sign {
+    height: 20vh;
+    background-color: #8d3470;
+    box-shadow: 0 -5px 12px -5px #333;
+}
+
+section.newsletter__sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.newsletter__sign>h2 {
+    color: white;
+    font-size: 27px;
+}
+
+section.newsletter__sign>hr {
+    width: 5%;
+    background-color: #000000;
+    border: 1.5px solid #000000;
+    border-radius: 4px;
+    margin: 20px;
+}
+
+section.newsletter__sign>form>input {
+    width: 300px;
+    border-radius: 3px;
+}
+
+section.newsletter__sign>form>button {
+    background-color: #fffffc;
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+section.testemonials {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 60vw;
+    height: 80vh;
+    margin: 0 auto;
+    align-items: center;
+}
+
+main.testemonials__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    font-size: 14px;
+    margin: 25px 0;
+}
+
+main.testemonials__info>article {
+    width: 30%;
+    text-align: center;
+}
+
+main.testemonials__info>article>img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid rgb(238, 237, 237);
+    box-shadow: 0 0 5px gray;
+}
+
+main.testemonials__info>article>p {
+    font-style: italic;
+    margin: 20px 0;
+}
+
+main.testemonials__info>article>div>h3 {
+    font-weight: bold;
+}
+
+section.testemonials>hr {
+    width: 10%;
+    background-color: black;
+    border: 1.5px solid black;
+    border-radius: 4px;
+    text-align: center;
+}
+
+section.testemonials>h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 20px;
+}
+
+footer {
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    box-shadow: 0 -5px 12px -5px #333;
+    padding-top: 10px;
+}
+
+footer>div.about {
+    padding-right: 20px;
+    width: 20%;
+}
+
+footer>div.about>h3 {
+    font-family: serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+footer>div.about>p {
+    font-family: monospace;
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+footer>div.sitemap {
+    width: 20%;
+    padding: 0 30px;
+}
+
+footer>div.sitemap>h2 {
+    font-size: 20px;
+    font-family: serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer>div.sitemap>ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+footer>div.sitemap>ul>li {
+    list-style: none;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+footer>div.sitemap>ul>li>a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer>div.contacts>h3 {
+    font-size: 20px;
+    font-family: serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer>div.contacts>ul>li {
+    list-style: none;
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+footer>div.contacts>ul>li>i {
+    margin-right: 10px;
+}
