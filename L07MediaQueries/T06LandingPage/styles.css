@@ -144,3 +144,42 @@ section.team__members>article>p.team__member__about {
     font-style: italic;
     font-size: 14px;
 }
+
+section.newsletter__sign {
+    height: 20vh;
+    background-color: #8d3470;
+    box-shadow: 0 -5px 12px -5px #333;
+}
+
+section.newsletter__sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.newsletter__sign>h2 {
+    color: white;
+    font-size: 27px;
+}
+
+section.newsletter__sign>hr {
+    width: 5%;
+    background-color: #000000;
+    border: 1.5px solid #000000;
+    border-radius: 4px;
+    margin: 20px;
+}
+
+section.newsletter__sign>form>input {
+    width: 300px;
+    border-radius: 3px;
+}
+
+section.newsletter__sign>form>button {
+    background-color: #fffffc;
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 2px;
+    cursor: pointer;
+}
