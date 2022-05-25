@@ -88,3 +88,59 @@ section#need__a__website>article>button {
     margin: 15px 0;
     cursor: pointer;
 }
+
+section.our__team {
+    width: 60vw;
+    height: 70vh;
+    margin: 20px auto;
+}
+
+section.our__team>h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 10px;
+}
+
+section.our__team>hr {
+    width: 10%;
+    background-color: black;
+    border: 1.5px solid black;
+    border-radius: 4px;
+}
+
+section.team__members {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 40px 0;
+}
+
+section.team__members>article {
+    width: 30%;
+    text-align: center;
+}
+
+section.team__members>article>img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid rgb(238, 237, 237);
+    box-shadow: 0 0 5px gray;
+}
+
+section.team__members>article>div.team__member__info {
+    margin: 20px;
+}
+
+section.team__members>article>div.team__member__info>h3 {
+    font-weight: bolder;
+}
+
+section.team__members>article>p.team__member__about {
+    font-style: italic;
+    font-size: 14px;
+}
