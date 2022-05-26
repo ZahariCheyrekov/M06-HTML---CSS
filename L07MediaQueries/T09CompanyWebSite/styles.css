@@ -35,13 +35,6 @@ nav a {
 }
 
 
-main {
-  grid-area: main;
-  padding: 20px;
-}
-
-
-
 @media (max-width: 700px) {
   body {
     display: grid;
