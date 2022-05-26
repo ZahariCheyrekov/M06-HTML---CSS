@@ -2,11 +2,7 @@
   box-sizing: border-box;
 }
 
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
+
 
 body {
   font-family: Arial, Helvetica, sans-serif;
