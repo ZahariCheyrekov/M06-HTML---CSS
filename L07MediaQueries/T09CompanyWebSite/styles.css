@@ -26,12 +26,6 @@ header {
   height: 20vh;
 }
 
-nav {
-  grid-area: nav;
-  background-color: #333332;
-  height: 35px;
-  display: flex;
-}
 
 nav a {
   color: #fff;
