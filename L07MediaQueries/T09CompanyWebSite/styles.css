@@ -39,28 +39,5 @@ nav a {
   body {
     display: grid;
     grid-template-areas: "header header"
-      "nav nav"
-      "aside aside"
-      "main main"
-      "footer footer";
-  }
-
-  header h1 {
-    margin-bottom: 0;
-  }
-
-  nav {
-    height: 20vh;
-    font-size: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 30px;
-  }
+      "n
 }
