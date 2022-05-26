@@ -40,12 +40,7 @@ main {
   padding: 20px;
 }
 
-footer {
-  grid-area: footer;
-  background-color: #dddddb;
-  height: 10vh;
-  text-align: center;
-}
+
 
 @media (max-width: 700px) {
   body {
