@@ -34,11 +34,6 @@ nav a {
   align-self: center;
 }
 
-aside {
-  grid-area: aside;
-  background-color: #f1f1ef;
-  padding: 20px;
-}
 
 main {
   grid-area: main;
