@@ -27,6 +27,7 @@ body {
     font-size: 12px;
     font-weight: bold;
     color: #9a9a98;
+    letter-spacing: 0.5px;
 }
 
 .services-header {
@@ -38,6 +39,7 @@ body {
 }
 
 .articles-section {
+    height: 65vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,4 +76,6 @@ body {
 
 .article-info {
     color: #9a9a98;
+    font-size: 14px;
+    line-height: 1.5rem;
 }
