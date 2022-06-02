@@ -28,3 +28,9 @@ body {
     width: 30%;
     line-height: 1.5rem;
 }
+
+.button-section button{
+    padding: 6px 18px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+}
