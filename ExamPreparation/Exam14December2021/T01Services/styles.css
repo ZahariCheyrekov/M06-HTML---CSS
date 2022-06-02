@@ -11,6 +11,25 @@ body {
 }
 
 .services-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.services-header h1,
+.services-header p {
+    margin: 0;
+}
+
+.services-header p {
+    font-size: 12px;
+    font-weight: bold;
+    color: #9a9a98;
+}
+
+.services-header {
     height: 15vh;
 }
 
@@ -30,9 +49,22 @@ body {
     width: 20%;
 }
 
+.article-content {
+    padding: 20px;
+}
+
+.article-title {
+    margin-top: 0;
+}
+
 .service-button {
     background-color: #8ac455;
     color: #fffffc;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 10px;
+    font-weight: bold;
 }
 
 .article-img img {
