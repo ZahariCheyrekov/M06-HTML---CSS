@@ -13,9 +13,17 @@ body {
     justify-content: center;
 }
 
-.article-moto{
+.article-moto {
     font-size: 10px;
 }
+
+.company-name {
+    margin: 0;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-size: 26px;
+}
+
 .main-container {
     width: 80vw;
     height: 50vh;
