@@ -8,8 +8,7 @@ body {
     font-family: 'Helvetica', sans-serif;
 }
 
-h1,
-h4 {
+h1 {
     font-family: Georgia, serif;
 }
 
@@ -28,6 +27,15 @@ h4 {
     color: #747574;
 }
 
+.medium-moto,
+.medium-title {
+    font-size: 14px;
+}
+
+.medium-about {
+    font-size: 15px;
+}
+
 .main-button {
     position: absolute;
     bottom: 18px;
@@ -44,8 +52,24 @@ h4 {
     flex-basis: 50%;
 }
 
+.medium-content {
+    margin-right: 80px;
+}
+
 .main-article {
     display: flex;
     align-items: center;
     position: relative;
+    margin-bottom: 22px;
+}
+
+.color-text {
+    background-color: #b6fdf0;
+}
+
+hr {
+    background-color: #747574;
+    border: none;
+    height: 2px;
+    width: 40%;
 }
