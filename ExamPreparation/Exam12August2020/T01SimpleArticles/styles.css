@@ -11,3 +11,22 @@ body {
     max-width: 1200px;
     margin: 200px auto;
 }
+
+.main-container {
+    display: flex;
+    align-items: center;
+}
+
+.about-section,
+.offer-section {
+    flex-basis: 50%;
+}
+
+.about-section {
+    background-color: #def3fe;
+}
+
+.offer-section {
+    height: 100%;
+    border: 4px solid #27a9ff;
+}
