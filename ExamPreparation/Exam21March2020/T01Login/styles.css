@@ -41,11 +41,25 @@ body {
 
 .login-form {
     background-color: #fffffc;
+    border-radius: 10px;
     color: #757678;
     display: flex;
     flex-direction: column;
-    width: 26vw;
+    gap: 1rem;
+    width: 24vw;
     height: 12vw;
+}
+
+.login-form>label {}
+
+.login-form-field:nth-child(1) {
+    padding: 20px 20px 4px;
+    border-bottom: 1px solid #75767894;
+}
+
+.login-form-field:nth-child(2) {
+    padding: 0px 20px 4px;
+    border-bottom: 1px solid #75767894;
 }
 
 #username,
