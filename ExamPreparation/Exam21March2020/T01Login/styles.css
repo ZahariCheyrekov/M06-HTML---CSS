@@ -25,6 +25,13 @@ body {
     height: 100%;
 }
 
+.login-title {
+    color: #fffffc;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px;
+}
+
 .login-section {
     position: absolute;
     top: 50%;
