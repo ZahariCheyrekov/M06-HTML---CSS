@@ -48,9 +48,12 @@ body {
     gap: 1rem;
     width: 24vw;
     height: 12vw;
+    align-items: center;
 }
 
-.login-form>label {}
+.login-form>label {
+    width: 100%;
+}
 
 .login-form-field:nth-child(1) {
     padding: 20px 20px 4px;
@@ -65,4 +68,14 @@ body {
 #username,
 #password {
     border: none;
+}
+
+.login-form-btn {
+    background-color: #ff184d;
+    border: none;
+    width: 40%;
+    color: #fffffc;
+    border-radius: 10px;
+    padding: 6px 10px;
+    margin-bottom: 20px;
 }
