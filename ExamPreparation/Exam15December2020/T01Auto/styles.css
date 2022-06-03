@@ -8,6 +8,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1,
@@ -22,6 +23,42 @@ h4 {
     justify-content: baseline;
 }
 
+.auto-info {
+    padding-left: 8px;
+}
+
 .article-title {
     margin-top: 0;
+    font-size: 24px;
+}
+
+.article-content {
+    padding-right: 44px;
+}
+
+.article-info {
+    font-weight: bold;
+    line-height: 22px;
+    word-spacing: 2px;
+    font-size: 14px;
+    color: #656565;
+}
+
+.benefits {
+    margin-top: 30px;
+}
+
+.article-benefit {
+    display: flex;
+    flex-direction: row;
+}
+
+.article-benefit img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.benefit-title {
+    margin: 0;
 }
