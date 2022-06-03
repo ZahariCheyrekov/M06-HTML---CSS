@@ -55,6 +55,10 @@ body {
     width: 100%;
 }
 
+.login-form>label>i{
+    margin-right: 20px;
+}
+
 .login-form-field:nth-child(1) {
     padding: 20px 20px 4px;
     border-bottom: 1px solid #75767894;
