@@ -62,4 +62,19 @@ body {
 .offer-section {
     height: 100%;
     border: 4px solid #27a9ff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.offer-article {
+    align-self: center;
+    height: 390px;
+    padding: 70px 0;
+}
+
+.color-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #27a9ff;
 }
