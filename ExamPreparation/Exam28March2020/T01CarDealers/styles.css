@@ -28,6 +28,7 @@ body {
     margin: 0;
     font-size: 20px;
     padding: 0 6px;
+    letter-spacing: 1px;
 }
 
 .main-content {
@@ -47,4 +48,14 @@ body {
 .benefit>img {
     float: left;
     margin-right: 10px;
+}
+
+.benefit-title {
+    color: #69686c;
+    margin-bottom: 0;
+}
+
+.benefit-content {
+    margin-top: 10px;
+    color: #666665;
 }
