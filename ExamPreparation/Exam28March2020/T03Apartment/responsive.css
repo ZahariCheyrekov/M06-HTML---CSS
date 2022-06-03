@@ -6,8 +6,17 @@
         box-sizing: border-box;
     }
 
-    .div-header {
+    .div-header,
+    .blog>article>img {
         display: none;
+    }
+
+    .logo-center{
+        width: 40%;
+    }
+
+    .button-header {
+        margin: 50px 0;
     }
 
     .options {
@@ -29,5 +38,9 @@
 
     .magazine>article {
         flex-direction: column;
+    }
+
+    .blog-title>h4 {
+        font-size: 20px;
     }
 }
