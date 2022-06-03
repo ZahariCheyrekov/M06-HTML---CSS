@@ -140,4 +140,19 @@
     .magazine-info>button {
         margin-top: 12px;
     }
+
+    footer {
+        margin: 0;
+        display: block;
+        padding-bottom: 8px;
+    }
+
+    footer>p {
+        font-size: 24px;
+    }
+
+    .icons>a {
+        display: block;
+        margin: 14px 0;
+    }
 }
