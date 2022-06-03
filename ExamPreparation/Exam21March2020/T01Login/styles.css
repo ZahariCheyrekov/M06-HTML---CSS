@@ -47,7 +47,7 @@ body {
     flex-direction: column;
     gap: 1rem;
     width: 24vw;
-    height: 12vw;
+    height: 12.4vw;
     align-items: center;
 }
 
@@ -55,7 +55,7 @@ body {
     width: 100%;
 }
 
-.login-form>label>i{
+.login-form>label>i {
     margin-right: 20px;
 }
 
@@ -82,4 +82,9 @@ body {
     border-radius: 10px;
     padding: 6px 10px;
     margin-bottom: 20px;
+}
+
+.login-form-btn:hover {
+    background-color: #a50228;
+    cursor: pointer;
 }
