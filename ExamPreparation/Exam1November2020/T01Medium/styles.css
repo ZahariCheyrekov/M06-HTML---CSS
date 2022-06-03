@@ -23,18 +23,25 @@ h4 {
     margin: 200px auto;
 }
 
-.button-section,
-.medium-content {
-    flex-basis: 50%;
+.medium-moto,
+.medium-about {
+    color: #747574;
 }
 
-.button-section>button {
+.main-button {
+    position: absolute;
+    bottom: 18px;
     background-color: #00a89b;
     color: #ffff;
     font-weight: bold;
-    padding: 6px 46px;
+    padding: 10px 50px;
     border: none;
     border-radius: 2px;
+}
+
+.button-section,
+.medium-content {
+    flex-basis: 50%;
 }
 
 .main-article {
