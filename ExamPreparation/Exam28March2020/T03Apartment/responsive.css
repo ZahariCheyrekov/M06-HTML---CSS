@@ -118,4 +118,12 @@
         padding-left: 0;
         margin: 35px auto;
     }
+
+    .magazine-info {
+        margin: 0;
+    }
+
+    .magazine-info {
+        width: 100%;
+    }
 }
