@@ -9,7 +9,8 @@
     .div-header,
     .blog>article>img,
     .blog-title>a,
-    .blog-title>h4>span {
+    .blog-title>h4>span,
+    .magazine-title>a {
         display: none;
     }
 
@@ -55,7 +56,7 @@
 
     .blog-title {
         border-bottom: 3px solid black;
-        padding: 40px 100px;
+        padding: 36px 0;
         width: 100%;
         font-size: 24px;
         text-align: center;
@@ -63,7 +64,23 @@
     }
 
     .blog-title>h4 {
-        font-size: 26px;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    #about-blog {
+        width: 94%;
+    }
+
+    #about-blog>h3 {
+        width: 100%;
+        font-size: 18px;
+        margin: 0;
+        padding: 40px 60px 30px 20px;
+    }
+
+    #about-blog>p {
+        margin: 0 21px 20px 20px;
     }
 
     .magazine-title>h4 {
