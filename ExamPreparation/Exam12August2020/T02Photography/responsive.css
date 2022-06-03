@@ -1,1 +1,23 @@
-/* TODO: Add media queries */
+@media(max-width: 600px) {
+    body {
+        font-size: 26px;
+    }
+
+    .thumbnails {
+        flex-direction: column;
+    }
+
+    .thumbnails>div {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 0 2em 0;
+    }
+
+    .thumbnails>div>a>img {
+        height: 270px;
+    }
+
+    footer>p {
+        font-size: 24px;
+    }
+}
