@@ -11,3 +11,17 @@ body {
     margin: 200px auto;
     max-width: 1200px;
 }
+
+.header-container {
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.main-title{
+    margin: 0;
+}
