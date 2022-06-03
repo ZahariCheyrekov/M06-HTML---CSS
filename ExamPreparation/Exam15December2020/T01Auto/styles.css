@@ -10,8 +10,18 @@ body {
     padding: 0;
 }
 
+h1,
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .main-auto {
     margin: 200px auto;
     max-width: 1200px;
     display: flex;
+    justify-content: baseline;
+}
+
+.article-title {
+    margin-top: 0;
 }
