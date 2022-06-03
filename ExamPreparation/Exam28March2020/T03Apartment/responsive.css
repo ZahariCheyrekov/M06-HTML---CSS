@@ -83,7 +83,24 @@
         margin: 0 21px 20px 20px;
     }
 
+    .magazine {
+        padding: 0;
+    }
+
+    .magazine-title {
+        width: 100%;
+        padding: 0;
+        padding-top: 40px;
+        display: block;
+    }
+
     .magazine-title>h4 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .magazine-title>h4 {
+        width: 100%;
         font-size: 10px;
     }
 
