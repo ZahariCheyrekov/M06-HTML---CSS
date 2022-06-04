@@ -3,9 +3,13 @@
         display: none;
     }
 
-    #home{
+    #home {
         text-align: center;
     }
 
-    
+    .container {
+        text-align: center;
+    }
+
+   
 }
