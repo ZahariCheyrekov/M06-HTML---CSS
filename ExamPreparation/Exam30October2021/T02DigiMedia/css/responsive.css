@@ -1,5 +1,7 @@
 @media (max-width: 600px) {
-    .container-fluid.hero>img {
+
+    .container-fluid.hero>img,
+    .row>.col-12>.hero-btns.contact-btn {
         display: none;
     }
 
@@ -11,6 +13,7 @@
     .container {
         width: 100%;
         text-align: center;
+        padding: 0;
     }
 
     .navbar {
@@ -41,6 +44,11 @@
         width: 100%;
         flex-direction: column;
         align-items: center;
+        margin: 0;
+    }
+
+    .container-fluid {
+        padding: 0;
     }
 
     .col-sm-6 {
