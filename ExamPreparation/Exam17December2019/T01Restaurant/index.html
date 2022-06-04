@@ -5,11 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Restaurant</title>
 </head>
 
 <body>
+    <main class="main-container">
+        <section class="img-section">
+            <img src="./form-img.jpg" alt="dinner">
+        </section>
 
+        <section class="booking-section">
+            <h1 class="booking-title"></h1>
+
+            <form action="booking-form">
+                <label for="username" class="login-form-field">
+                    <input type="text" name="name" id="name" placeholder="Your name">
+                </label>
+                <label for="phone-number" class="login-form-field">
+                    <input type="text" name="number" id="number" placeholder="Your phone number">
+                </label>
+                <label for="time" class="login-form-field">
+                    <input type="text" name="time" id="time" placeholder="Time">
+                </label>
+                <label for="time" class="login-form-field">
+                    <input type="text" name="people" id="people" placeholder="Number of people">
+                </label>
+                <input class="btn login-form-btn" type="submit" value="Book now">
+            </form>
+        </section>
+    </main>
 </body>
 
 </html>
