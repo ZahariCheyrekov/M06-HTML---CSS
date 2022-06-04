@@ -21,10 +21,20 @@ body {
 
 .title-section {
     background-color: #001219;
-    width: 100%;
 }
 
 .earth-title {
     margin: 0;
+    padding: 10px 8px 0;
+    font-size: 30px;
     color: #00f3ff;
+}
+
+.planet-title {
+    margin-top: 0;
+    padding: 0 10px 10px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #fffffc;
 }
