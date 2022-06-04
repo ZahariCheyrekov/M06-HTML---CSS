@@ -12,5 +12,22 @@
         margin: 0px 0 1em 0;
     }
 
-    
+    .wrapper {
+        padding-top: 40px;
+        position: relative;
+        padding-bottom: 0;
+    }
+
+    header.major {
+        margin-bottom: 1em;
+    }
+
+    .wrapper>.inner {
+        width: 100%;
+    }
+
+    .wrapper>.inner.narrow {
+        width: 100%;
+    }
+
 }
