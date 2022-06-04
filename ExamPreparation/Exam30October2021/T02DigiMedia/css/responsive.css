@@ -26,6 +26,7 @@
 
     .container h1 {
         margin-top: 40px;
+        padding: 0 20px;
     }
 
     .hero-btns {
@@ -61,10 +62,12 @@
         margin-bottom: 50px;
     }
 
-    .contact-nav{
+    .contact-nav {
         display: flex;
         flex-direction: column;
     }
 
-    
+    footer h6 {
+        padding-bottom: 25px;
+    }
 }
