@@ -53,3 +53,33 @@
         width: 60%;
     }
 }
+
+@media (max-width: 850px) {
+    .pair {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .planet>.planet_info>p {
+        font-size: 22px;
+    }
+
+    .news ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .news ul li {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .news ul li img {
+        width: 313px;
+        height: 202px;
+    }
+}
