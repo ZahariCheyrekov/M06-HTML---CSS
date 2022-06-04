@@ -1,4 +1,20 @@
-@media(max-width: 414px) {
+@media (max-width: 768px) {
+    .main-movie-poster {
+        display: none;
+    }
+
+    .main-movie ul {
+        width: 100%;
+    }
+
+    .main-movie ul li.main-movie-trailer {
+        width: 60%;
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 414px) {
     .main-movie-poster img {
         display: none;
     }
