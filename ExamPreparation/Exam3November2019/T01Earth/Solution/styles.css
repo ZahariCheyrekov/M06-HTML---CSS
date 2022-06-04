@@ -13,10 +13,10 @@ body {
 }
 
 .main-container {
-    max-width: 700px;
     margin: 100px auto;
-    border-radius: 4px;
-    border: 3px solid #001219;
+    max-width: 800px;
+    border: 1px solid #000;
+    border-radius: 5px;
 }
 
 .title-section {
@@ -41,23 +41,36 @@ body {
 
 .earth-section {
     display: flex;
+    justify-content: space-between;
+    height: 400px;
+    margin-bottom: 80px;
 }
 
-.earth {
-    width: 28vw;
-    height: 28vw;
-    border: 1px solid #001219;
-    padding: 6px 10px;
+.earth-content {
+    display: flex;
+    padding: 30px 18px 25px;
 }
 
-.earth-img-text {
-    margin: 0;
-    font-size: 0.9em;
-    letter-spacing: 1px;
-    padding-left: 2px;
+.earth-content-img {
+    min-width: 288px;
+    padding: 6px 18px;
+    border: 1px solid #000;
 }
 
-.earth>img {
-    width: 230px;
-    height: 230px;
+.earth-content-img img {
+    width: 100%;
+}
+
+.earth-content-img figcaption {
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 19px;
+    color: rgb(22, 22, 22);
+}
+
+.earth-info-text {
+    padding: 15px 24px 15px 26px;
+    font-size: 19px;
+    letter-spacing: 3px;
+    line-height: 27px;
 }
