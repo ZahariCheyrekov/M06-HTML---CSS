@@ -9,6 +9,7 @@
     }
 
     .container {
+        width: 100%;
         text-align: center;
     }
 
@@ -37,7 +38,14 @@
     }
 
     .row {
+        width: 100%;
         flex-direction: column;
         align-items: center;
+    }
+
+    .col-sm-6 {
+        max-width: 90%;
+        text-align: left;
+        margin-bottom: 20px;
     }
 }
