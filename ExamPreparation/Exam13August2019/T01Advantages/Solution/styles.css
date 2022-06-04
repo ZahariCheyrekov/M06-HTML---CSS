@@ -7,6 +7,12 @@
 }
 
 body {
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+.advantages-container {
+    margin: 100px auto;
+    max-width: 1000px;
 }
