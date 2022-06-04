@@ -55,31 +55,35 @@
 }
 
 @media (max-width: 850px) {
-    .pair {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .planet>.planet_info>p {
-        font-size: 22px;
-    }
-
     .news ul {
-        display: flex;
         flex-direction: column;
-        align-items: center;
-        width: 100%;
-        padding: 0;
+        padding-left: 0;
     }
 
     .news ul li {
-        padding: 0;
+        text-align: center;
+    }
+
+    .news ul h2 {
+        font-size: 18px;
+    }
+
+    header h1 {
+        font-size: 36px;
+    }
+
+    .news ul li {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .news ul li h2 {
         width: 100%;
         text-align: center;
     }
 
-    .news ul li img {
-        width: 313px;
-        height: 202px;
+    .planet_info p {
+        font-size: 44px;
     }
 }
