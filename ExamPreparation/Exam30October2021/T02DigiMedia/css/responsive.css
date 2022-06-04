@@ -2,4 +2,10 @@
     .container-fluid.hero>img {
         display: none;
     }
+
+    #home{
+        text-align: center;
+    }
+
+    
 }
