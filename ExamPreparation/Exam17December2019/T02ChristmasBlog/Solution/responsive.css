@@ -1,0 +1,34 @@
+@media (max-width: 1236px) {
+    .big_article>.article {
+        width: 15em;
+        height: 16em;
+    }
+
+    .big_article .article .article_text h3,
+    h3 {
+        font-size: 1.05em;
+    }
+
+    .big_article .article .article_text {
+        margin-top: 15px;
+    }
+
+    .row_articles {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .big_article:nth-child(1) {
+        margin-bottom: 0;
+    }
+
+    .big_article:nth-child(2) {
+        margin-top: 0;
+    }
+
+    header>.subtitle {
+        font-size: 1.17em;
+    }
+}
+
+@media (max-width: 768px) {}
