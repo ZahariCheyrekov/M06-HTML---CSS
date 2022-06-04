@@ -15,6 +15,19 @@ body {
 .advantages-container {
     margin: 100px auto;
     max-width: 1000px;
+    position: relative;
+}
+
+.advantages-title {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -67.5px;
+    padding: 10px 20px;
+    background-color: #23abff;
+    color: #fff;
+    font-weight: normal;
+    border-radius: 10px 10px 0 0;
 }
 
 .advantage-item {
@@ -22,7 +35,7 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: #f4f5f5;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
 }
 
 article:first-of-type {
