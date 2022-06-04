@@ -15,5 +15,7 @@
         justify-content: center;
     }
 
-
+    .navbar-light .navbar-brand {
+        margin: 0;
+    }
 }
