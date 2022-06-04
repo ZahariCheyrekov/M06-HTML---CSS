@@ -19,5 +19,16 @@
         flex-direction: column;
     }
 
-    
+    .spotlight>* {
+        width: 100%;
+    }
+
+    .inner>h3,
+    .inner>p {
+        text-align: center;
+    }
+
+    .spotlight .inner {
+        padding: 1rem;
+    }
 }
