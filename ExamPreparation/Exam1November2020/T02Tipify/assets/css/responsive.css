@@ -13,9 +13,8 @@
     }
 
     .wrapper {
-        padding: 40px 0 20px;
+        padding: 40px 0;
         position: relative;
-        padding-bottom: 0;
     }
 
     header.major {
@@ -48,10 +47,7 @@
         width: 80%;
     }
 
-    .grid-form .form-control.narrow {
-        width: 92%;
-    }
-
+    .grid-form .form-control.narrow,
     .grid-form .form-control {
         width: 92%;
     }
