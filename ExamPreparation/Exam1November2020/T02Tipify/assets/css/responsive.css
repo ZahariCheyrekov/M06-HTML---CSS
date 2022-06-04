@@ -39,5 +39,22 @@
         width: 94%;
     }
 
+    .grid-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid-form .form-control {
+        width: 80%;
+    }
+
+    .grid-form .form-control.narrow {
+        width: 92%;
+    }
+
+    .grid-form .form-control {
+        width: 92%;
+    }
+
     
 }
