@@ -60,4 +60,11 @@
     .about {
         margin-bottom: 50px;
     }
+
+    .contact-nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
 }
