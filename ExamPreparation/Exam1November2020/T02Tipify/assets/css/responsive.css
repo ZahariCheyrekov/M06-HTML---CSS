@@ -1,0 +1,16 @@
+@media (max-width: 600px) {
+    .banner {
+        padding: 3em 0 1em;
+    }
+
+    .banner h2 {
+        width: 92%;
+        font-size: 36px;
+    }
+
+    .banner p {
+        margin: 0px 0 1em 0;
+    }
+
+    
+}
