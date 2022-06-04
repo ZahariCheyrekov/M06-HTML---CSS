@@ -35,4 +35,9 @@
         max-width: 96%;
         margin-bottom: 50px;
     }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
 }
