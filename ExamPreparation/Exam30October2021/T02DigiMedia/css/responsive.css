@@ -11,5 +11,9 @@
         text-align: center;
     }
 
-   
+    .navbar {
+        justify-content: center;
+    }
+
+
 }
