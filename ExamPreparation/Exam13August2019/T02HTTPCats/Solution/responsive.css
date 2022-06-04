@@ -3,5 +3,21 @@
         flex-direction: column;
     }
 
-   
+    .gallery>* {
+        width: 100%;
+    }
+
+    .wrapper.style2 {
+        padding: 1.1rem;
+    }
+
+    .wrapper>header h2:after {
+        width: 37%;
+    }
+
+    .spotlight {
+        flex-direction: column;
+    }
+
+    
 }
