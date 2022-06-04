@@ -45,3 +45,13 @@ article:first-of-type {
 article:last-child {
     border-radius: 0 0 10px 10px;
 }
+
+.advantage-item>i {
+    color: #00be7a;
+    padding-right: 60px;
+    font-size: 20px;
+}
+
+.advantage-content {
+    padding-left: 18px;
+}
