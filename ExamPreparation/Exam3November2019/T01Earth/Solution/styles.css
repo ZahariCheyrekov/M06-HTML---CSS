@@ -38,3 +38,19 @@ body {
     font-size: 16px;
     color: #fffffc;
 }
+
+.earth-section {
+    display: flex;
+}
+
+.earth {
+    width: 28vw;
+    height: 28vw;
+    border: 1px solid #001219;
+    padding: 6px 10px;
+}
+
+.earth>img {
+    width: 230px;
+    height: 230px;
+}
