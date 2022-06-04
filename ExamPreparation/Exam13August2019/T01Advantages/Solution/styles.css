@@ -16,3 +16,19 @@ body {
     margin: 100px auto;
     max-width: 1000px;
 }
+
+.advantage-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f5f5;
+    margin-bottom: 4px;
+}
+
+article:first-of-type {
+    border-radius: 10px 0 0 0;
+}
+
+article:last-child {
+    border-radius: 0 0 10px 10px;
+}
