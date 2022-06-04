@@ -50,6 +50,13 @@ body {
     padding: 6px 10px;
 }
 
+.earth-img-text {
+    margin: 0;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    padding-left: 2px;
+}
+
 .earth>img {
     width: 230px;
     height: 230px;
