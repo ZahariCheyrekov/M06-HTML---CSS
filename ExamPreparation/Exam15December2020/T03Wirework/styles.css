@@ -71,3 +71,16 @@ body {
     text-align: center;
     line-height: 26px;
 }
+
+.benefits {
+    background-color: #383837;
+    padding: 40px;
+}
+
+.benefits .benefits-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: 0;
+}
