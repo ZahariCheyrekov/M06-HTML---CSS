@@ -99,6 +99,15 @@ a {
     line-height: 30px;
 }
 
+.contact-us-button {
+    background-color: #fffffc;
+    color: #ff5304;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 24px;
+    font-weight: bolder;
+}
+
 .header-dog {
     position: absolute;
     width: 800px;
