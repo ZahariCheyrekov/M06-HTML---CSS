@@ -74,7 +74,7 @@ body {
 
 .benefits {
     background-color: #383837;
-    padding: 50px;
+    padding: 60px;
 }
 
 .benefits .benefits-list {
@@ -83,13 +83,15 @@ body {
     align-items: center;
     text-align: center;
     list-style: none;
+    justify-content: space-between;
+    gap: 1.4rem;
     width: 100%;
     margin: 0;
     padding: 0 20px;
 }
 
 .benefit-item i {
-    font-size: 40px;
+    font-size: 30px;
     color: #ecece9;
     background-color: #ff4e0c;
     padding: 20px;
@@ -98,8 +100,14 @@ body {
 
 .benefit-title {
     color: #ecece9;
-    border-bottom: 2px solid gray;
     margin: 0;
     padding: 18px 0;
 }
 
+.benefit-about {
+    border-top: 2px solid gray;
+    color: gray;
+    margin-top: 0;
+    padding: 20px 0;
+    font-size: 16px;
+}
