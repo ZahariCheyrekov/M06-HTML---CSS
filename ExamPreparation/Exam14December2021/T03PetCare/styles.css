@@ -219,7 +219,7 @@ a {
     position: absolute;
     width: 100%;
     text-align: center;
-    margin: 100px auto;
+    margin: 150px auto;
 }
 
 .why-us-title {
@@ -231,4 +231,19 @@ a {
 .why-us-content {
     color: #fffffc;
     padding: 0 350px;
+    margin-bottom: 30px;
+}
+
+.whhy-us-contact {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.contact-info-about {
+    color: #fffffc;
+}
+
+.contact-info-about span {
+    font-weight: bold;
 }
