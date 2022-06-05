@@ -214,3 +214,21 @@ a {
 .about-us-button a {
     color: #fffffc;
 }
+
+.why-us-article {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.why-us-title {
+    font-size: 30px;
+    margin: 0;
+    color: #fffffc;
+}
+
+.why-us-content {
+    color: #fffffc;
+    padding: 0 350px;
+}
