@@ -118,7 +118,7 @@ body {
 
 .etiam-posuere {
     text-align: center;
-    padding: 40px 0;
+    padding: 50px 0;
 }
 
 .etiam-title {
@@ -130,4 +130,13 @@ body {
 .etiam-text-content {
     color: #a2a2a0;
     margin-top: 0;
+}
+
+.etaiam-button {
+    background-color: #009789;
+    color: #ecece9;
+    font-weight: bold;
+    padding: 12px 34px;
+    font-size: 16px;
+    border: none;
 }
