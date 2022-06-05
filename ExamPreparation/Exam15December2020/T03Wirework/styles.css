@@ -67,4 +67,7 @@ body {
     background-color: #ff4e0c;
     margin-top: -20px;
     color: #ecece9;
+    padding: 40px 240px;
+    text-align: center;
+    line-height: 26px;
 }
