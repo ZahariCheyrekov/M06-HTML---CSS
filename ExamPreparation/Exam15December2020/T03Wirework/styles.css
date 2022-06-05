@@ -110,6 +110,7 @@ body {
     margin-top: 0;
     padding: 20px 0;
     font-size: 16px;
+    line-height: 24px;
 }
 
 .benefit-item:first-child .benefit-about {
@@ -150,7 +151,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
     padding: 50px 40px;
     text-align: center;
 }
@@ -160,5 +161,8 @@ body {
 }
 
 .info-item-content {
-    color: #a2a2a0;
+    color: #848484;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 20px 0;
 }
