@@ -40,9 +40,13 @@ a {
     margin-right: 30px;
 }
 
-.aniport-logo,
+.anipat-logo {
+    flex-basis: 30%;
+    text-align: center;
+}
+
 .header-navigation {
-    flex-basis: 50%;
+    flex-basis: 70%;
 }
 
 .header-navigation .list-items {
