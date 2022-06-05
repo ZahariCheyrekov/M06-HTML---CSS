@@ -88,12 +88,14 @@ a {
     margin: 0;
 }
 
-.your-pets.header-title-big {
+.your-pets.header-title-big,
+.about-title-heavy {
     font-size: 40px;
     margin: 0;
 }
 
-.about-content-text {
+.about-content-text,
+.about-title-normal {
     font-weight: lighter;
     word-spacing: 2px;
     line-height: 30px;
@@ -188,4 +190,27 @@ a {
 .service-about-img img {
     width: 100%;
     height: 100%;
+}
+
+.about-title-normal {
+    margin: 0;
+}
+
+.about-service-info {
+    color: gray;
+    font-size: 12px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.about-us-button {
+    background-color: #ff5304;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 24px;
+    font-weight: bolder;
+}
+
+.about-us-button a {
+    color: #fffffc;
 }
