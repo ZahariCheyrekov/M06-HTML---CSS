@@ -34,18 +34,26 @@ a {
     align-items: center;
 }
 
-.aniport-logo {
-    width: 50%;
-}
-
 .header-navigation {
     display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.aniport-logo,
+.header-navigation {
+    flex-basis: 50%;
 }
 
 .header-navigation .list-items {
     display: flex;
     list-style: none;
     justify-content: flex-end;
+}
+
+.list-items .li-item {
+    margin-left: 20px;
+    padding: 10px;
 }
 
 .main-container {
