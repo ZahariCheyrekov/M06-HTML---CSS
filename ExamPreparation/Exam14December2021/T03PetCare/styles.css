@@ -11,6 +11,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 h1,
@@ -175,8 +176,8 @@ a {
     margin: 100px auto;
     display: flex;
     align-items: center;
+justify-content: space-evenly;
     width: 60%;
-    gap: 4rem;
 }
 
 .service-about-img {
@@ -253,7 +254,7 @@ footer {
     justify-content: center;
     align-items: baseline;
     gap: 3rem;
-    padding: 100px 50px;
+    padding: 50px;
 }
 
 .footer-list {
@@ -261,9 +262,16 @@ footer {
     padding: 0;
 }
 
+.footer-article-title {
+    margin: 0;
+    font-size: 18px;
+}
 
-
-.footer-list-item{
+.footer-list-item {
     padding: 10px 0;
     color: gray;
+}
+
+footer article:last-child {
+    transform: translateY(25%);
 }
