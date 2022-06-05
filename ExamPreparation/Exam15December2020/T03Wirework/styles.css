@@ -115,3 +115,14 @@ body {
 .benefit-item:first-child .benefit-about {
     margin-top: 20px;
 }
+
+.etiam-posuere {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.etiam-title {
+    color: #383837;
+    font-size: 30px;
+    margin: 10px 0;
+}
