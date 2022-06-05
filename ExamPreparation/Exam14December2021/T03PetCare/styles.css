@@ -247,3 +247,23 @@ a {
 .contact-info-about span {
     font-weight: bold;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 3rem;
+    padding: 100px 50px;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+.footer-list-item{
+    padding: 10px 0;
+    color: gray;
+}
