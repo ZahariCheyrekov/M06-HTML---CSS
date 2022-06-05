@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media all and (max-width: 600px) {
 
     .container-fluid.hero>img,
     .row>.col-12>.hero-btns.contact-btn {
