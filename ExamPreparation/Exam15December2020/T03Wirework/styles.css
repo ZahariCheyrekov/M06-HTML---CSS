@@ -74,13 +74,24 @@ body {
 
 .benefits {
     background-color: #383837;
-    padding: 40px;
+    padding: 50px;
 }
 
 .benefits .benefits-list {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 90%;
+    text-align: center;
+    list-style: none;
+    width: 100%;
     margin: 0;
+    padding: 0 20px;
+}
+
+.benefit-item i{
+    font-size: 40px;
+    color: #ecece9;
+    background-color: #ff4e0c;
+    padding: 20px;
+    border-radius: 2px;
 }
