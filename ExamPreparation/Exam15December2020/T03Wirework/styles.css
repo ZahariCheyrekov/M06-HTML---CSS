@@ -47,3 +47,8 @@ body {
     padding: 0 20px;
     border-right: 2px solid gray;
 }
+
+.wirework-title-next{
+    font-size: 12px;
+    margin-left: 20px;
+}
