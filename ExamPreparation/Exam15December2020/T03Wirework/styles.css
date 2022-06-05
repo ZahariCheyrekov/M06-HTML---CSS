@@ -37,3 +37,13 @@ body {
     background-color: #ff4e0c;
     color: #ecece9;
 }
+
+.wirework-title-content {
+    display: flex;
+    align-items: baseline;
+}
+
+.wirework-title{
+    padding: 0 20px;
+    border-right: 2px solid gray;
+}
