@@ -172,8 +172,9 @@ body {
 .footer-content {
     background-color: #009789;
     text-align: center;
-    padding: 50px 100px;
+    padding: 60px 100px;
     color: #1eb5a6;
+    margin: -1% 0;
 }
 
 .footer-white-text {
