@@ -88,10 +88,18 @@ body {
     padding: 0 20px;
 }
 
-.benefit-item i{
+.benefit-item i {
     font-size: 40px;
     color: #ecece9;
     background-color: #ff4e0c;
     padding: 20px;
     border-radius: 2px;
 }
+
+.benefit-title {
+    color: #ecece9;
+    border-bottom: 2px solid gray;
+    margin: 0;
+    padding: 18px 0;
+}
+
