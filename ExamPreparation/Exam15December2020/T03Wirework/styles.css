@@ -111,3 +111,7 @@ body {
     padding: 20px 0;
     font-size: 16px;
 }
+
+.benefit-item:first-child .benefit-about {
+    margin-top: 20px;
+}
