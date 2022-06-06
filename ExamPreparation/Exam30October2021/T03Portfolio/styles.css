@@ -65,3 +65,9 @@ body {
     font-size: 18px;
     padding-right: 40px;
 }
+
+.vertical-line {
+    background-color: #22222270;
+    height: 80px;
+    width: 2px;
+}
