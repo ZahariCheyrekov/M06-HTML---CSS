@@ -187,10 +187,11 @@ body {
 
 .apollo-work {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #efefec;
     margin-bottom: 25px;
-    padding: 70px ;
+    padding: 70px;
+    position: relative;
 }
 
 .apollo-work-img {
@@ -199,4 +200,11 @@ body {
 
 .apollo-work-img img {
     width: 100%;
+}
+
+.apollo-work .img-center {
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
