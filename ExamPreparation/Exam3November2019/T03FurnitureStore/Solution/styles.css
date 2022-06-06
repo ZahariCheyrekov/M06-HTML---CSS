@@ -155,12 +155,26 @@ a {
 }
 
 footer {
+    margin: 0 auto;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 90%;
 }
 
 .nav-list {
     display: flex;
     list-style: none;
-    gap: 1.2rem;
+    gap: 0.8rem;
+    padding: 0;
+}
+
+.footer-li-item a {
+    color: gray;
+    font-size: 14px;
+}
+
+.footer-li-item:first-child a{
+    font-weight: bold;
+    font-size: 16px;
 }
