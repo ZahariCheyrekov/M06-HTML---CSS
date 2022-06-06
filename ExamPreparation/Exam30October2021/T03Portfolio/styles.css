@@ -184,3 +184,19 @@ body {
 .info-section-apollo .apollo-about-text {
     padding-right: 20px;
 }
+
+.apollo-work {
+    display: flex;
+    justify-content: space-around;
+    background-color: #efefec;
+    margin-bottom: 25px;
+    padding: 70px ;
+}
+
+.apollo-work-img {
+    max-width: 400px;
+}
+
+.apollo-work-img img {
+    width: 100%;
+}
