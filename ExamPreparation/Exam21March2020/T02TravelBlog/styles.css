@@ -124,3 +124,17 @@ body {
     bottom: 0;
     left: 10px;
 }
+
+footer {
+    background-color: #8c8c8a;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
