@@ -160,6 +160,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     width: 90%;
+    padding: 10px;
 }
 
 .nav-list {
@@ -170,7 +171,8 @@ footer {
 }
 
 .footer-li-item a,
-.contact-us-span {
+.contact-us-span,
+.furniture-store-time {
     color: gray;
     font-size: 14px;
 }
@@ -188,5 +190,21 @@ footer {
 
 .call-btn {
     background-color: #cdc3c0;
+    color: gray;
+    padding: 4px 40px;
     border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.media-list {
+    display: flex;
+    list-style: none;
+    color: gray;
+    gap: 1rem;
+}
+
+.media-item {
+    cursor: pointer;
+    font-size: 22px;
 }
