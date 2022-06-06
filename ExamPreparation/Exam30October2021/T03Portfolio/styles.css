@@ -18,6 +18,7 @@ body {
     align-items: center;
     justify-content: space-around;
     position: relative;
+    margin-bottom: 25px;
 }
 
 .menu-header {
@@ -70,4 +71,17 @@ body {
     background-color: #22222270;
     height: 80px;
     width: 2px;
+}
+
+.apollo-about {
+    background-color: #efefec;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.apollo-camera,
+.apollo-about-info {
+    flex-basis: 40%;
 }
