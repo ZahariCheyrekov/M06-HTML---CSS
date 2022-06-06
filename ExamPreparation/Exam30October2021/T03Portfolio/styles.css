@@ -78,6 +78,7 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 30px;
+    margin-bottom: 25px;
 }
 
 .apollo-camera,
@@ -114,4 +115,13 @@ body {
 
 .apollo-media-list .apollo-media-link:first-child {
     padding: 6px 10px;
+}
+
+.appollo-photo {
+    width: 100%;
+}
+
+.appollo-photo img {
+    width: 100%;
+    max-height: 500px;
 }
