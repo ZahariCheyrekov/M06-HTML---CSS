@@ -14,9 +14,28 @@ body {
 .furniture-header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    background-color: #ff3700;
 }
 
-.nav-li-tems{
+.nav-li-items {
     display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+.li-item{
+    margin: 10px 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-field{
+    background-color: #fff;
+    color: gray;
+    padding: 6px 20px;
+    width: 300px;
+    border: 1px solid gray;
 }
