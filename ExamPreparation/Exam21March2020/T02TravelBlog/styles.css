@@ -13,10 +13,19 @@ body {
 }
 
 .blog-header {
-    position: relative;
+    background-image: url('./images/map.jpg');
+    height: 700px;
+    background-position: center;
+    background-position-y: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.map-img img {
-    max-height: 700px;
-    width: 100%;
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav img {
+    max-width: 80px;
 }
