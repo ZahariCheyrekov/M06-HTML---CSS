@@ -121,3 +121,14 @@ a {
     border-radius: 3px;
     cursor: pointer;
 }
+
+.benefits {
+    display: flex;
+    width: 80%;
+    align-items: center;
+}
+
+.benefit-article img {
+    max-width: 100px;
+    max-height: 100px;
+}
