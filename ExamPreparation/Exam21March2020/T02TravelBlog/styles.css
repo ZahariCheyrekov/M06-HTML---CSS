@@ -8,5 +8,15 @@
 
 body {
     font-family: 'Gelasio', serif;
+    margin: 0;
+    padding: 0;
 }
 
+.blog-header {
+    position: relative;
+}
+
+.map-img img {
+    max-height: 700px;
+    width: 100%;
+}
