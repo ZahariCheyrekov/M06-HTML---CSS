@@ -208,3 +208,10 @@ body {
     top: 50%;
     transform: translateY(-50%);
 }
+
+.footer-apollo {
+    max-height: 400px;
+    padding: 60px;
+    background-color: #efefec;
+    text-align: center;
+}
