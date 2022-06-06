@@ -33,7 +33,7 @@ a {
     text-decoration: none;
 }
 
-.search{
+.search {
     display: flex;
 }
 
@@ -50,4 +50,9 @@ a {
     background-color: gray;
     font-size: 12px;
     color: #fff;
+}
+
+.user-acount {
+    color: #fff;
+    margin-right: 30px;
 }
