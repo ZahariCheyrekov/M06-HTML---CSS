@@ -143,3 +143,12 @@ a {
     background-color: #f5e4df;
     border-radius: 50%;
 }
+
+.benefit-title{
+    margin: 10px 0;
+}
+
+.benefit-info{
+    margin: 0;
+    color: gray;
+}
