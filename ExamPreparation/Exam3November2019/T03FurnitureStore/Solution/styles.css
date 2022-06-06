@@ -169,12 +169,24 @@ footer {
     padding: 0;
 }
 
-.footer-li-item a {
+.footer-li-item a,
+.contact-us-span {
     color: gray;
     font-size: 14px;
 }
 
-.footer-li-item:first-child a{
+.footer-li-item:first-child a {
     font-weight: bold;
     font-size: 16px;
+}
+
+.contact-us {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+.call-btn {
+    background-color: #cdc3c0;
+    border: none;
 }
