@@ -77,8 +77,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 1rem;
-    padding: 20px;
+    padding: 30px;
 }
 
 .apollo-camera,
@@ -91,5 +90,28 @@ body {
 }
 
 .apollo-camera img {
-    width: 80%;
+    width: 90%;
+}
+
+.apollo-media-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.apollo-media-link {
+    background-color: #90908f;
+    padding: 6px 8px;
+    cursor: pointer;
+}
+
+.apollo-media-link a {
+    color: #fff;
+}
+
+.apollo-media-list .apollo-media-link:first-child {
+    padding: 6px 10px;
 }
