@@ -94,6 +94,18 @@ body {
     width: 90%;
 }
 
+.apollo-about-header {
+    display: flex;
+    align-items: center;
+}
+
+.apollo-about-header .apollo-hr {
+    width: 60px;
+    height: 2px;
+    margin-right: 20px;
+    background-color: #90908f;
+}
+
 .apollo-media-list {
     list-style: none;
     display: flex;
@@ -119,6 +131,7 @@ body {
 
 .appollo-photo {
     width: 100%;
+    margin-bottom: 25px;
 }
 
 .appollo-photo img {
