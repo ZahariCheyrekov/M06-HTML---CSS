@@ -163,8 +163,9 @@ body {
     align-items: center;
     justify-content: space-around;
     flex-wrap: 2rem;
-    background-color: #90908f;
-padding: 60px;
+    background-color: #efefec;
+    margin-bottom: 25px;
+    padding: 60px;
 }
 
 .info-section-img {
@@ -173,4 +174,13 @@ padding: 60px;
 
 .info-section-img img {
     width: 100%;
+}
+
+.info-section-img,
+.info-section-apollo {
+    flex-basis: 40%;
+}
+
+.info-section-apollo .apollo-about-text {
+    padding-right: 20px;
 }
