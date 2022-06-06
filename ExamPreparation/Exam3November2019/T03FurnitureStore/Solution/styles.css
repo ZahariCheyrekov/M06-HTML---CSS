@@ -100,3 +100,14 @@ a {
     width: 100%;
     height: 100%;
 }
+
+.new-collection-title {
+    color: #ff3700;
+    font-size: 40px;
+    margin: 20px 0 0;
+}
+
+.new-collection-text {
+    margin-top: 10px;
+    color: gray;
+}
