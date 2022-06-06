@@ -14,18 +14,37 @@ body {
 
 .blog-header {
     background-image: url('./images/map.jpg');
-    height: 700px;
+    height: 600px;
     background-position: center;
     background-position-y: 10%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.header-nav{
+.header-nav {
     display: flex;
     justify-content: space-between;
+    padding: 20px 40px;
 }
 
 .header-nav img {
-    max-width: 80px;
+    max-width: 50px;
+}
+
+.log {
+    color: #fff;
+}
+
+.log-in {
+    margin-right: 10px;
+}
+
+.start-now {
+    text-align: center;
+    margin: 200px 50px 0;
+}
+
+.start-now-title {
+    font-size: 60px;
+    color: #fff;
 }
