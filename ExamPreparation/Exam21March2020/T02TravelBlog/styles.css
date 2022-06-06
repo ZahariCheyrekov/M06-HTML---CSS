@@ -47,4 +47,15 @@ body {
 .start-now-title {
     font-size: 60px;
     color: #fff;
+    margin-bottom: 0;
+    text-shadow: 2px 2px rgba(12, 12, 12, 0.906);
+}
+
+.start-now-button {
+    color: #fff;
+    background-color: #0065a3;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
 }
