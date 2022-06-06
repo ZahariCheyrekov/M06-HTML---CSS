@@ -85,11 +85,12 @@ a {
     font-size: 16px;
 }
 
-
 .new-collection {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 40px;
+    margin: 20px auto;
+    width: 95%;
 }
 
 .new-collection-img {
@@ -144,11 +145,11 @@ a {
     border-radius: 50%;
 }
 
-.benefit-title{
+.benefit-title {
     margin: 10px 0;
 }
 
-.benefit-info{
+.benefit-info {
     margin: 0;
     color: gray;
 }
