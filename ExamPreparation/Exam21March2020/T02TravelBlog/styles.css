@@ -130,7 +130,8 @@ footer {
     color: #fff;
     display: flex;
     justify-content: space-around;
-    padding: 40px;
+    align-items: center;
+    padding: 10px;
 }
 
 a {
@@ -138,3 +139,13 @@ a {
     text-decoration: none;
 }
 
+.info-about-list {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.info-about-item:not(.info-about-item:last-child) {
+    border-right: 2px solid lightgray;
+    padding-right: 10px;
+}
