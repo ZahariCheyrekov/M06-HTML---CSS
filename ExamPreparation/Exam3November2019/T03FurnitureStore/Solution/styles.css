@@ -56,3 +56,19 @@ a {
     color: #fff;
     margin-right: 30px;
 }
+
+.rooms-furniture {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.furniture-room {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.furniture-room img {
+    width: 100%;
+    height: 100%;
+}
