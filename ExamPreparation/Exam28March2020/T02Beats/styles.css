@@ -197,8 +197,30 @@ a {
 
 .red-beats-article {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 100px 30px;
     flex-basis: 50%;
+    background-color: #dadad8;
+    color: #575756;
 }
 
+.big-title-text {
+    font-size: 80px;
+    margin: 10px 0;
+}
+
+.red-beats-img>img {
+    max-height: 500px;
+}
+
+.small-title-text {
+    font-size: 30px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.red-title-large {
+    color: #ff0000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
