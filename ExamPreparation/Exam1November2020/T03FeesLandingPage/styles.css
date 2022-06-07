@@ -48,7 +48,7 @@ h4 {
 .taxes {
     background: linear-gradient(180deg, #54546d 59%, #fff 50%);
     position: relative;
-    height: 600px;
+    height: 550px;
 }
 
 .taxes::before {
@@ -56,10 +56,16 @@ h4 {
     background-image: url('./images/calculator-icon.svg');
     background-repeat: no-repeat;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50px;
+    left: -8%;
     bottom: 0;
     right: 0;
+}
+
+.taxes-title {
+    color: #fffffc;
+    text-align: center;
+    padding-top: 40px;
 }
 
 .courses {
@@ -70,4 +76,17 @@ h4 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.course-item {
+    background-color: #fffffc;
+    color: #59546c;
+    width: 430px;
+    height: 300px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 5px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
 }
