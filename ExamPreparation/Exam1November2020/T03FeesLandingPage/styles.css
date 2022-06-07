@@ -21,10 +21,26 @@ h4 {
 }
 
 .header-page {
+    margin: 0 auto;
+    width: 90%;
     display: flex;
     justify-content: space-between;
+    padding: 10px 0;
 }
 
 .header-page img {
     max-width: 150px;
+}
+
+.header-nav-list {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.nav-li-item>a {
+    text-decoration: none;
+    color: #59546c;
+    font-weight: bold;
+    font-size: 14px;
 }
