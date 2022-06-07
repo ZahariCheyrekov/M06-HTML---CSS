@@ -229,6 +229,17 @@ h4 {
     word-spacing: 2px;
 }
 
-.postbank-benefit>img{
+.postbank-benefit>img {
     height: 100px;
+}
+
+footer {
+    background-color: #59546c;
+    padding: 15px 0;
+}
+
+.footer-content {
+    color: #9892a8;
+    text-align: center;
+    font-weight: bold;
 }
