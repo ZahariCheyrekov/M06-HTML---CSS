@@ -84,3 +84,11 @@ h4 {
 .certificates-img {
     display: flex;
 }
+
+.certificates-info {
+    background-color: #26394e;
+    color: #fffffc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    padding: 20px;
+}
