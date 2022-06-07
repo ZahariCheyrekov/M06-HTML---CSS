@@ -116,3 +116,7 @@ h4 {
 .certificates-img img:first-child {
     height: 270px;
 }
+
+.main-container{
+    padding: 60px 40px;
+}
