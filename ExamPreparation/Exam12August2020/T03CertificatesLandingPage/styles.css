@@ -158,7 +158,7 @@ h4 {
 
 .apply-section::before {
     content: "";
-    background-image: linear-gradient(rgba(95, 128, 199, 0.322), rgba(95, 128, 199, 0.411)),
+    background-image: linear-gradient(rgba(53, 63, 85, 0.322), rgba(95, 128, 199, 0.411)),
         url("./images/sign-up-prompt-background.jpg");
     background-size: cover;
     position: absolute;
@@ -169,11 +169,23 @@ h4 {
     border-radius: 10px;
 }
 
-.apply-article{
+.apply-article {
     position: absolute;
     text-align: center;
     width: 100%;
     top: 50%;
     transform: translateY(-50%);
     color: #f4f5f5;
+}
+
+.apply-title {
+    font-size: 28px;
+    margin: 0;
+}
+
+.apply-text-info {
+    font-weight: bold;
+    margin-bottom: 40px;
+    word-spacing: 2px;
+padding: 0 270px;
 }
