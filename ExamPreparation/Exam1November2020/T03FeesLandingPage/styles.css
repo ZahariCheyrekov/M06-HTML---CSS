@@ -187,7 +187,7 @@ h4 {
 }
 
 .table-row .table-el:not(.table-el:first-child) {
-    width: 10%;
+    width: 15%;
 }
 
 .table-row:nth-child(odd) {
@@ -196,6 +196,10 @@ h4 {
 
 .table-row:nth-child(even) {
     background-color: #f8f8f5;
+}
+
+.table-row>.table-el:not(.table-el:first-child) {
+    padding: 0 50px;
 }
 
 .table-el {
