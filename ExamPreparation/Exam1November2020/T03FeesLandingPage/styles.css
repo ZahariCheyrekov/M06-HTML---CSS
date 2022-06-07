@@ -25,7 +25,7 @@ h4 {
     width: 90%;
     display: flex;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 10px 0 0;
 }
 
 .header-page img {
@@ -43,4 +43,31 @@ h4 {
     color: #59546c;
     font-weight: bold;
     font-size: 14px;
+}
+
+.taxes {
+    background: linear-gradient(180deg, #54546d 59%, #fff 50%);
+    position: relative;
+    height: 600px;
+}
+
+.taxes::before {
+    content: '';
+    background-image: url('./images/calculator-icon.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.courses {
+    width: 90%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
