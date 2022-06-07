@@ -110,6 +110,20 @@ body {
     font-weight: normal;
 }
 
-.bold-title-text{
+.bold-title-text {
     font-weight: bold;
 }
+
+.powerbeats-product-info {
+    margin: 40px 0;
+    font-weight: bold;
+    line-height: 26px;
+    width: 68%;
+}
+
+.powerbeats-price{
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 30px;
+}
+
