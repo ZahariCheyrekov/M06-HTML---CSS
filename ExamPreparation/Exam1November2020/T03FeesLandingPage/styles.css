@@ -164,3 +164,30 @@ h4 {
     height: 72px;
     background-color: #fffffc;
 }
+
+.training-programs {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.table-benefits {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+.table-row .table-el:not(.table-el:first-child) {
+    width: 10%;
+}
+
+.table-row:nth-child(odd) {
+    background-color: #e6e6e4;
+}
+
+.table-row:nth-child(even) {
+    background-color: #f8f8f5;
+}
+
+.table-el {
+    padding: 15px;
+}
