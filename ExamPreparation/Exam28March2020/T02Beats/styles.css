@@ -131,3 +131,29 @@ body {
     font-weight: bold;
     font-size: 30px;
 }
+
+.free-trial {
+    background-color: #575756;
+    padding: 50px;
+}
+
+.title-info {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.free-trial img {
+    max-width: 100px;
+}
+
+.free-tial-title {
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #fbfcfd;
+    font-size: 30px;
+}
+
+.bold-white-text {
+    font-weight: bold;
+}
