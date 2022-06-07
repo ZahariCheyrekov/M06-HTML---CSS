@@ -157,3 +157,27 @@ body {
 .bold-white-text {
     font-weight: bold;
 }
+
+.read-more-text {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0;
+    position: relative;
+    padding: 10px;
+}
+
+a {
+    color: #fbfcfd;
+    text-decoration: none;
+}
+
+.read-more-text::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 10%;
+    background: #fbfcfd;
+    height: 1px;
+    width: 9%;
+}
