@@ -181,3 +181,24 @@ a {
     height: 1px;
     width: 9%;
 }
+
+.red-beats {
+    display: flex;
+}
+
+.beats-girl {
+    margin-top: -3px;
+    flex-basis: 50%;
+}
+
+.beats-girl>img {
+    width: 100%;
+}
+
+.red-beats-article {
+    display: flex;
+    justify-content: center;
+    padding: 100px 30px;
+    flex-basis: 50%;
+}
+
