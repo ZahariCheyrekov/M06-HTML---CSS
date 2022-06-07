@@ -122,6 +122,20 @@ h4 {
     margin-bottom: 0;
 }
 
-.course-text{
+.course-text {
     padding: 0 40px;
+}
+
+.bolder-text {
+    font-weight: bold;
+}
+
+.course-prices {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.course-prices.blue {
+    background: linear-gradient(to left, #629bd0, #4c6b87);
 }
