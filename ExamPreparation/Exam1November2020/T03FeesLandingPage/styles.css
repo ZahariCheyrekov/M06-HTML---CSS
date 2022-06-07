@@ -213,3 +213,17 @@ h4 {
 .bottom-right-border {
     border-radius: 0 0 6px;
 }
+
+.postbank-benefit {
+    margin: 60px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.benefit-text-info {
+    padding-right: 60px;
+    line-height: 24px;
+    word-spacing: 2px;
+}
