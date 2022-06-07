@@ -187,5 +187,32 @@ h4 {
     font-weight: bold;
     margin-bottom: 40px;
     word-spacing: 2px;
-padding: 0 270px;
+    padding: 0 270px;
+}
+
+.apply-actions {
+    margin-top: 50px;
+}
+
+.apply-btn {
+    border-radius: 5px;
+    border: none;
+}
+
+.light-button {
+    padding: 10px 30px;
+    margin-right: 50px;
+    border-right: 2px solid #fffffc;
+    color: #25abff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.apply-actions::after {
+    content: "";
+    height: 35px;
+    width: 1px;
+    background: white;
+    position: absolute;
+    right: 50%;
 }
