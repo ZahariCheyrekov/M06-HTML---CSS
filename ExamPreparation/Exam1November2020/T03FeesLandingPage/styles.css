@@ -191,3 +191,15 @@ h4 {
 .table-el {
     padding: 15px;
 }
+
+.top-border {
+    border-top-left-radius: 6px;
+}
+
+.bottom-left-border {
+    border-radius: 0 0 0 6px;
+}
+
+.bottom-right-border {
+    border-radius: 0 0 6px;
+}
