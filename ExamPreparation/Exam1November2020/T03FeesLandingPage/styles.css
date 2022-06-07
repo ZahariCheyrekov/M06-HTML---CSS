@@ -89,4 +89,21 @@ h4 {
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.course-title {
+    margin-bottom: 0;
+}
+
+.course-button {
+    background-color: #7634af;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    padding: 14px 24px;
+    margin: 30px 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+    cursor: pointer;
 }
