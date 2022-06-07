@@ -82,6 +82,7 @@ h4 {
 
 .certificates-img {
     display: flex;
+    align-items: baseline;
 }
 
 .certificates-info {
@@ -110,4 +111,8 @@ h4 {
     font-size: 16px;
     bottom: -60px;
     left: 0;
+}
+
+.certificates-img img:first-child {
+    height: 270px;
 }
