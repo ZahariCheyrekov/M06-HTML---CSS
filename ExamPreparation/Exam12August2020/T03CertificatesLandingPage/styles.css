@@ -117,6 +117,27 @@ h4 {
     height: 270px;
 }
 
-.main-container{
-    padding: 60px 40px;
+.main-container {
+    padding: 60px 0;
 }
+
+.about-diploma {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.about-dimploma-title {
+    text-align: center;
+}
+
+.about-text-diploma {
+    background-color: #f4f5f5;
+    padding: 10px 20px;
+    color: #26394e;
+    font-weight: bold;
+    line-height: 24px;
+    word-spacing: 1px;
+    font-size: 18px;
+    position: relative;
+}
+
