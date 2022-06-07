@@ -114,6 +114,12 @@ body {
     font-weight: bold;
 }
 
+.offer-section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
 .powerbeats-product-info {
     margin: 40px 0;
     font-weight: bold;
@@ -121,9 +127,7 @@ body {
     width: 68%;
 }
 
-.powerbeats-price{
+.powerbeats-price {
     font-weight: bold;
     font-size: 30px;
-    margin-right: 30px;
 }
-
