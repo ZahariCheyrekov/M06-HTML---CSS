@@ -168,3 +168,12 @@ h4 {
     bottom: 0;
     border-radius: 10px;
 }
+
+.apply-article{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #f4f5f5;
+}
