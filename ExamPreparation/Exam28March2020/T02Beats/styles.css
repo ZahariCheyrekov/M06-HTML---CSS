@@ -10,6 +10,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 .header-nav-list {
@@ -26,4 +27,23 @@ body {
     color: #575756;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.beats-landing-main {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    margin: 0 auto;
+}
+
+.beats-img {
+    position: relative;
+}
+
+.beats-img>img {
+    max-width: 500px;
+    position: absolute;
+    right: -85px;
+    top: 0;
 }
