@@ -219,6 +219,7 @@ h4 {
     width: 90%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 2rem;
 }
 
@@ -226,4 +227,8 @@ h4 {
     padding-right: 60px;
     line-height: 24px;
     word-spacing: 2px;
+}
+
+.postbank-benefit>img{
+    height: 100px;
 }
