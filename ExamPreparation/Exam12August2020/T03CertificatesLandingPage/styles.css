@@ -78,7 +78,6 @@ h4 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    gap: 4rem;
 }
 
 .certificates-img {
@@ -91,4 +90,24 @@ h4 {
     border-radius: 10px;
     box-shadow: 0px 0px 10px gray;
     padding: 20px;
+    flex-basis: 50%;
+    position: relative;
+}
+
+.certificates-info-title {
+    margin-top: 0;
+}
+
+.certificates-text-content {
+    font-size: 1.05em;
+}
+
+.pos-abs {
+    position: absolute;
+    color: #26394e;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    bottom: -60px;
+    left: 0;
 }
