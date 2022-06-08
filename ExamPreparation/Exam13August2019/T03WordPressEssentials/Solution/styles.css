@@ -292,7 +292,7 @@ body {
 }
 
 footer {
-    background-color: #1b446b;
+    background-color: #112b44;
     padding: 30px 0;
 }
 
@@ -301,7 +301,24 @@ footer {
     justify-content: space-around;
 }
 
-.footer-list{
+.footer-list {
     padding: 0;
     list-style: none;
+}
+
+.list-title.yellow-title {
+    color: #ffa000;
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.footer-li-item {
+    margin: 0;
+    padding: 4px 0;
+    font-size: 14px;
+}
+
+.footer-li-item>a {
+    color: #fffffc;
+    text-decoration: none;
 }
