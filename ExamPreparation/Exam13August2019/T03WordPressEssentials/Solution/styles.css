@@ -172,6 +172,7 @@ body {
     flex-wrap: wrap;
     list-style: none;
     gap: 1rem;
+    padding-left: 20px;
 }
 
 .themes-list-item {
@@ -192,4 +193,31 @@ body {
 .themes-list-item-text>span {
     color: #1b446b;
     margin-right: 10px;
+}
+
+.course-info {
+    background-color: #ffa000;
+    color: #ffffcf;
+    width: 65%;
+    margin: 40px auto 20px;
+    padding: 10px 30px;
+}
+
+.course-info-title {
+    margin: 10px 0 20px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.course-info-title::after {
+    content: '';
+    position: absolute;
+    top: 110%;
+    left: 34%;
+    bottom: 0;
+    right: 0;
+    width: 32%;
+    height: 3px;
+    background-color: #ffffcf;
 }
