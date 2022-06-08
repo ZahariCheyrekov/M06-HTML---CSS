@@ -153,12 +153,28 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
-    margin: 0 auto;
 }
 
 .cookie-toolbox-title {
     color: #574935;
     background-color: rgba(255, 255, 255, 0.614);
     padding: 4px 20px;
+}
+
+.toolbox-items {
+    display: flex;
+    gap: 5rem;
+}
+
+.toolbox-item>img {
+    max-width: 200px;
+}
+
+.toolbox-item-title {
+    margin: 0;
+    padding: 12px 0 10px;
+    background-color: rgba(255, 255, 255, 0.614);
+    font-style: italic;
+    text-align: center;
+    margin-top: -10px;
 }
