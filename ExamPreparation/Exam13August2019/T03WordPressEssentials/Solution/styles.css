@@ -42,7 +42,7 @@ body {
     font-size: 12px;
 }
 
-.header-nav-button {
+.button-yellow {
     background-color: #ffa000;
     color: #ffffcf;
     border: none;
@@ -77,13 +77,14 @@ body {
 .wordpess-data {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: #15263680;
     color: #ffffcf;
+    background-color: #1b446b;
+    opacity: 0.5;
     padding: 20px;
 }
 
 .wordpress-title {
-    font-size: 30px;
+    font-size: 35px;
     margin: 0;
 }
 
@@ -92,4 +93,10 @@ body {
     list-style: none;
     gap: 1rem;
     justify-content: center;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.button-yellow.big {
+    padding: 4px 70px;
 }
