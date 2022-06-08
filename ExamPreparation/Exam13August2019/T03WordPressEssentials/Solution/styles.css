@@ -120,12 +120,18 @@ body {
     background-color: #f2f2f0;
     margin: 40px auto 20px;
     padding: 30px;
+    text-align: center;
 }
 
 .about-title {
     text-align: center;
     margin-top: 0;
     position: relative;
+}
+
+.about-content {
+    text-align: start;
+    margin-top: 20px;
 }
 
 .about-title::after {
