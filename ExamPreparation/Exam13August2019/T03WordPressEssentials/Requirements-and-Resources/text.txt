@@ -71,7 +71,7 @@ SoftUni Foundation
 ОСНОВНИ ПАРТНЬОРИ
 XS Software
 SmartIT
-Software Group
+SmartIT
 SuperHosting.BG
 Indeavr
 Infragistics
