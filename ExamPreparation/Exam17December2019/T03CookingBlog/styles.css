@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 40px;
     background-color: #e6e3db;
 }
 
@@ -26,11 +26,26 @@ body {
     list-style: none;
 }
 
-.nav-li-item>a {
+.nav-li-item>a,
+.log-in>a {
     text-decoration: none;
     color: #574935;
 }
 
 .header-title {
     color: #574935;
+}
+
+.log-in {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.header-btn {
+    background-color: #574935;
+    color: #fff;
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
 }
