@@ -49,3 +49,20 @@ body {
     border: none;
     cursor: pointer;
 }
+
+.search-section {
+    position: relative;
+}
+
+.search-section>img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.search-field {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
