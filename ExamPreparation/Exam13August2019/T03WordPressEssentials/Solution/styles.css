@@ -229,9 +229,36 @@ body {
 
 .more-info {
     text-align: start;
+    padding-bottom: 0;
 }
 
 .more-info-title {
     margin: 0;
     color: #ffa000;
+}
+
+.forms-of-studying {
+    width: 100%;
+    color: #ffffcf;
+}
+
+.first-form {
+    background-color: #1b446b;
+}
+
+.second-form {
+    background-color: #ffa000;
+}
+
+.form-as {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 100px 6px 10px;
+    line-height: 22px;
+    box-shadow: 5px 5px 7px gray;
+}
+
+.form-title,
+.form-list {
+    margin: 0;
 }
