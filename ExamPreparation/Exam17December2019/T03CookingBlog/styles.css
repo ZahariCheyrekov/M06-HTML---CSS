@@ -148,3 +148,17 @@ body {
     color: #fff;
     text-decoration: none;
 }
+
+.cookie-toolbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cookie-toolbox-title {
+    color: #574935;
+    background-color: rgba(255, 255, 255, 0.614);
+    padding: 4px 20px;
+}
