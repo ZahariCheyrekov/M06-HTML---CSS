@@ -115,7 +115,8 @@ body {
 
 .about-course,
 .skills-section,
-.course-content {
+.course-content,
+.more-info {
     width: 65%;
     background-color: #f2f2f0;
     margin: 40px auto 20px;
@@ -220,4 +221,17 @@ body {
     width: 32%;
     height: 3px;
     background-color: #ffffcf;
+}
+
+.course-info-text {
+    line-height: 24px;
+}
+
+.more-info {
+    text-align: start;
+}
+
+.more-info-title {
+    margin: 0;
+    color: #ffa000;
 }
