@@ -78,9 +78,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: #ffffcf;
-    background-color: #1b446b;
-    opacity: 0.5;
+    background-color: #12202d;
+    opacity: 0.7;
     padding: 20px;
+}
+
+.wordpess-data::before {
+    content: url('../Requirements-and-Resources/images/wordpress.png');
+    position: absolute;
+    left: -15%;
+    top: 0;
+    transform: scale(70%);
+    opacity: 0.9;
 }
 
 .wordpress-title {
@@ -103,15 +112,4 @@ body {
 
 .main-container {
     position: relative;
-}
-
-.main-container::before {
-    content: '';
-    background-image: url('../Requirements-and-Resources/images/wordpress.png');
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
 }
