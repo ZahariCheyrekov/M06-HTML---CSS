@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -75,7 +75,6 @@ body {
 }
 
 .wordpess-data {
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: #ffffcf;
     background-color: #12202d;
@@ -114,8 +113,8 @@ body {
     position: relative;
 }
 
-.about-course {
-    font-family: Arial, Helvetica, sans-serif;
+.about-course,
+.skills-section {
     width: 65%;
     background-color: #f2f2f0;
     margin: 40px auto 20px;
@@ -127,11 +126,13 @@ body {
     text-align: center;
     margin-top: 0;
     position: relative;
+    color: #1b446b;
 }
 
 .about-content {
     text-align: start;
     margin-top: 20px;
+    line-height: 24px;
 }
 
 .about-title::after {
@@ -145,4 +146,22 @@ body {
     height: 3px;
     transform: translateX(-50%);
     background-color: #ffa000;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.skill-item {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex-basis: 50%;
+    margin: 0;
+}
+
+.skill-item>i {
+    color: #ffa000;
 }
