@@ -93,3 +93,31 @@ body {
     transform: translateY(-50%);
     color: gray;
 }
+
+.main-container {
+    background-image: url('./Media/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.recipes-section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.recipes-article>img {
+    max-width: 700px;
+}
+
+.recipes-article {
+    margin: 30px;
+    display: flex;
+}
+
+.aside-info {
+    background-color: #e6e3db;
+    width: 100%;
+}
