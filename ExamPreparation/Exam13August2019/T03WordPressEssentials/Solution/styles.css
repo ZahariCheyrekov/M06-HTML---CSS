@@ -100,3 +100,18 @@ body {
 .button-yellow.big {
     padding: 4px 70px;
 }
+
+.main-container {
+    position: relative;
+}
+
+.main-container::before {
+    content: '';
+    background-image: url('../Requirements-and-Resources/images/wordpress.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
