@@ -298,12 +298,15 @@ footer {
 
 .footer-nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 65%;
+    margin: 0 auto;
 }
 
 .footer-list {
     padding: 0;
     list-style: none;
+    flex-basis: 25%;
 }
 
 .list-title.yellow-title {
@@ -318,7 +321,25 @@ footer {
     font-size: 14px;
 }
 
-.footer-li-item>a {
+.footer-li-item>a,
+.social-media-link>a {
     color: #fffffc;
     text-decoration: none;
+}
+
+.social-media-list {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.social-media-link {
+    font-size: 18px;
+}
+
+.footer-info-content {
+    color: gray;
+    font-size: 14px;
+    margin: 14px 0;
 }
