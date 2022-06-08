@@ -281,3 +281,12 @@ body {
     margin: 10px 0 0;
     color: #1b446b;
 }
+
+.about-article>.about-content {
+    margin-top: 8px;
+}
+
+.apply-button-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
