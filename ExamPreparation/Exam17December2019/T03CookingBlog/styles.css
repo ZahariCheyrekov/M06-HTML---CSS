@@ -13,8 +13,8 @@ body {
     overflow-x: hidden;
     background-image: url('./Media/background.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: 200% 142%;
+    background-position-x: -800px;
 }
 
 .blog-header {
@@ -98,8 +98,6 @@ body {
     transform: translateY(-50%);
     color: gray;
 }
-
-.main-container {}
 
 .recipes-section {
     display: flex;
