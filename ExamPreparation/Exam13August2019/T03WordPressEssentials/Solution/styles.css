@@ -51,3 +51,25 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+
+.courses {
+    display: flex;
+    width: 66%;
+    gap: 2rem;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+.courses-title-yellow {
+    color: #ffa000;
+    font-weight: normal;
+    padding: 12px 0;
+    margin: 0;
+}
+
+.courses-title-blue {
+    color: #1b446b;
+    padding: 12px 0;
+    margin: 0;
+    border-bottom: 2px solid #1b446b;
+}
