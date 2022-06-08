@@ -263,3 +263,21 @@ body {
 .form-list {
     margin: 0;
 }
+
+.lecturer-about-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.lecturer-about-info>img {
+    border-radius: 50%;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.lecturer-name {
+    text-align: start;
+    margin: 10px 0 0;
+    color: #1b446b;
+}
