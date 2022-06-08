@@ -114,7 +114,8 @@ body {
 }
 
 .about-course,
-.skills-section {
+.skills-section,
+.course-content {
     width: 65%;
     background-color: #f2f2f0;
     margin: 40px auto 20px;
@@ -164,4 +165,31 @@ body {
 
 .skill-item>i {
     color: #ffa000;
+}
+
+.themes-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 1rem;
+}
+
+.themes-list-item {
+    background-color: #dadad8;
+    flex-basis: 48%;
+    text-align: start;
+    border-left: 3px solid #1b446b;
+}
+
+.themes-list-item-text {
+    margin: 10px 0;
+    padding: 0 0 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #565655;
+}
+
+.themes-list-item-text>span {
+    color: #1b446b;
+    margin-right: 10px;
 }
