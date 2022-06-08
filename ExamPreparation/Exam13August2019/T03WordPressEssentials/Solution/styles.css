@@ -10,3 +10,19 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.page-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1b446b;
+}
+
+.header-apply {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header-apply>img {
+    max-width: 200px;
+}
