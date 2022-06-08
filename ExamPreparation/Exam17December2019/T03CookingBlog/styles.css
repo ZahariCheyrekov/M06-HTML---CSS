@@ -11,6 +11,10 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background-image: url('./Media/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .blog-header {
@@ -95,12 +99,7 @@ body {
     color: gray;
 }
 
-.main-container {
-    background-image: url('./Media/background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+.main-container {}
 
 .recipes-section {
     display: flex;
@@ -191,4 +190,29 @@ body {
     color: #fff;
     font-weight: bold;
     text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.836);
+    padding: 20px;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-li-item {
+    list-style: none;
+    padding: 0 12px;
+}
+
+.footer-li-item:not(.footer-li-item:last-child) {
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+.footer-links>.footer-li-item>a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
