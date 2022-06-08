@@ -10,6 +10,7 @@ body {
     font-family: 'Gelasio', serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .blog-header {
@@ -115,9 +116,23 @@ body {
 .recipes-article {
     margin: 30px;
     display: flex;
+    align-items: stretch;
 }
 
 .aside-info {
     background-color: #e6e3db;
     width: 100%;
+    text-align: center;
+    padding: 140px 20px;
+}
+
+.aside-title{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.aside-text{
+    margin-top: 0;
+    font-size: 34px;
+    font-weight: bold;
 }
