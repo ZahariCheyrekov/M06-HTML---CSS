@@ -7,6 +7,7 @@
 }
 
 body {
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -15,6 +16,7 @@ body {
     display: flex;
     justify-content: space-around;
     background-color: #1b446b;
+    padding: 4px 0;
 }
 
 .header-apply {
@@ -25,4 +27,27 @@ body {
 
 .header-apply>img {
     max-width: 200px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.nav-list>.nav-li-item>a {
+    color: #8da1b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.header-nav-button {
+    background-color: #ffa000;
+    color: #ffffcf;
+    border: none;
+    border-radius: 25px;
+    padding: 4px 16px;
+    font-weight: bold;
+    cursor: pointer;
 }
