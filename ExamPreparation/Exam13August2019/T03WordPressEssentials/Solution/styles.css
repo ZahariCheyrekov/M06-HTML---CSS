@@ -290,3 +290,18 @@ body {
     text-align: center;
     margin-bottom: 40px;
 }
+
+footer {
+    background-color: #1b446b;
+    padding: 30px 0;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-list{
+    padding: 0;
+    list-style: none;
+}
