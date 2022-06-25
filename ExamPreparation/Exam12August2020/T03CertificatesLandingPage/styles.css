@@ -7,16 +7,6 @@
     box-sizing: border-box;
 }
 
-.page-certificates {
-    position: absolute;
-    width: 90%;
-    display: flex;
-    justify-content: space-around;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .certificates-img {
     display: flex;
     align-items: baseline;
