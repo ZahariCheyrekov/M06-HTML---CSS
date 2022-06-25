@@ -7,15 +7,6 @@
     box-sizing: border-box;
 }
 
-
-
-
-
-.page-header {
-    height: 600px;
-    position: relative;
-}
-
 .page-header::before {
     content: "";
     background-image: url("./images/hero-certificates.jpg");
