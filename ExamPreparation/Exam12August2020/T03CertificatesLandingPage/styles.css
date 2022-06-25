@@ -7,14 +7,6 @@
     box-sizing: border-box;
 }
 
-
-.nav-links {
-    display: flex;
-    list-style: none;
-}
-
-
-
 .page-certificates {
     position: absolute;
     width: 90%;
