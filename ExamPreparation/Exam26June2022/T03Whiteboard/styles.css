@@ -11,3 +11,27 @@ body {
     margin: 0 60px;
     padding: 0;
 }
+
+.header-body {
+    color: #fff;
+    position: relative;
+}
+
+.header-body>img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    position: relative;
+}
+
+.header-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 99.2%;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.669), rgba(128, 128, 128, 0.331));
+    text-shadow: 1px 2px 2px #000000;
+}
