@@ -85,3 +85,60 @@ body {
 section {
     height: 500px;
 }
+
+.hustle-art-title {
+    margin: 14px 0 10px;
+    font-size: 34px;
+}
+
+.hustle-art-info {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.hustle-list-sec {
+    display: flex;
+    gap: 5rem;
+}
+
+.hustle-list-sec>img {
+    width: 50%;
+}
+
+.hustle-list {
+    padding: 0;
+    list-style: none;
+}
+
+.hustle-li-item>i {
+    color: #00d0b4;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.hustle-li-item {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.hustle-case {
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+}
+
+.hustle-case>img {
+    width: 50%;
+}
+
+.hustel-art-mini>img {
+    width: 100px;
+    height: 100px;
+}
+
+.hustles-arts {
+    display: grid;
+    gap: 1rem;
+    grid-template: 150px / auto auto auto;
+}
