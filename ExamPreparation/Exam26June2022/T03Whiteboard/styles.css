@@ -142,3 +142,24 @@ section {
     gap: 1rem;
     grid-template: 150px / auto auto auto;
 }
+
+.hustle-case-art .hustle-art-title {
+    text-align: center;
+    margin: 30px 0 40px;
+}
+
+.hustles-arts {
+    margin: 0 auto;
+}
+
+.hustle-case-art {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hstl-art-title {
+    color: #00d0b4;
+    font-size: 18px;
+    margin: 0;
+}
