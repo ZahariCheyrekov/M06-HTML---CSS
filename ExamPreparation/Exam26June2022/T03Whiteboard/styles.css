@@ -35,3 +35,16 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.669), rgba(128, 128, 128, 0.331));
     text-shadow: 1px 2px 2px #000000;
 }
+
+.section-header-content.cart {
+    cursor: pointer;
+}
+
+.main-container {
+    margin-top: -4px;
+}
+
+.main-hd-title {
+    font-size: 45px;
+    margin-bottom: 0;
+}
