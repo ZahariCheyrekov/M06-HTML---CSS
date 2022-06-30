@@ -1,3 +1,61 @@
-# M06-HTML-CSS
+# About
 
-Целта на курса "HTML & CSS" е да положи основни знания по уеб технологии и по-конкретно запознаване с HTML5 и CSS3. Придобиват се начални знания в уеб разработката, уеб браузъри, инструменти за HTML / CSS / DOM разработка и се развиват практически умения за използване на езика за описание на уеб съдържание (HTML) и езика за стилизиране на уеб съдържание (CSS). Изучават се основните HTML тагове, параграфи, списъци, таблици, форми, контроли и таговете за семантичен HTML. Набляга се на основните CSS селектори и стилове, работа с класове, презентационни правила, правила за позициониране и изглед (layout) в CSS. Покриват се последните новости на HTML5 и CSS3 стандарта. Курсът набляга на практически упражнения с HTML и CSS, чрез които ви въвлича в реални проекти за изработка на уеб страници, имплементация на фрагменти от сайтове и създаване на цялостни модерни уеб сайтове с добра визия, съвременна структура и мобилна поддръжка.
+//TODO
+
+# Course Overview
+
+- <a href="#INTRO">Introduction to HTML & CSS</a>
+- <a href="#STRUC">HTML Structure</a>
+- <a href="#CSST">CSS & Typography</a>
+- <a href="#CSBM">CSS Box Model</a>
+- <a href="#POSGRID">Position & Grid</a>
+- <a href="#FLEX">Flexbox</a>
+- <a href="#MQU">Media Queries</a>
+
+
+## <p id="INTRO">Introduction to HTML & CSS</p>
+- What is HTML?
+- Creating HTML Page
+- HTML Common Elements
+- Headings, Paragraphs, Lists, Images, Links
+- HTML Terminology: Tags and Attributes
+- What is CSS
+- Combining HTML and CSS Files
+- Inline and Block Elements
+
+## <p id="STRUC">HTML Structure</p>
+- Semantic HTML
+- HTML Tags
+- Forms
+- Tables
+
+## <p id="CSST">CSS & Typography</p>
+- Typography
+- Priciples of Readability
+- CSS Propertie
+- Font Awesome Icons
+
+## <p id="CSBM">CSS Box Model</p>
+- CSS Box Model
+- Block and Inline Elements
+- Width and Height
+- Padding, Margin and Border
+- Box Sizing
+
+## <p id="POSGRID">Position & Grid</p>
+- CSS Grid
+- Position: static, relative, absolute, fixed and sticky
+- Positioning Properties
+- Z-index
+
+## <p id="FLEX">Flexbox</p>
+- Flexbox
+- Properties for the Parent
+- Properties for the Children
+
+## <p id="MQU">Media Queries</p>
+- Responsive Web Design
+- Media Queries
+- Media Type
+- Media Feature Rules
+- Media Queries Conditions
