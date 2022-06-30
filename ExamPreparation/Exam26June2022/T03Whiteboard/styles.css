@@ -48,3 +48,26 @@ body {
     font-size: 45px;
     margin-bottom: 0;
 }
+
+.art-info-text {
+    width: 29%;
+    margin: 30px auto 50px;
+}
+
+.art-info-btn {
+    background-color: #93f1e7;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #93f1e7;
+    border-radius: 5px;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.art-info-btn:hover {
+    background-color: transparent;
+    border: 2px solid #fff;
+}
