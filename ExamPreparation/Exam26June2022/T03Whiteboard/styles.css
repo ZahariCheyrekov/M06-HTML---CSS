@@ -181,3 +181,34 @@ footer .hustle-art-title {
     text-align: center;
     padding: 20px 0 0;
 }
+
+.footer-info-inform-text {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.footer-info-inform-text>a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer-info-inform-text-tx {
+    margin: 0;
+}
+
+.footer-info-inform-text {
+    padding-bottom: 30px;
+}
+
+.hstl-ft-title {
+    font-size: 22px;
+    margin: 40px 0 0;
+}
+
+.htsl-ft-info-txt {
+    font-size: 16px;
+}
