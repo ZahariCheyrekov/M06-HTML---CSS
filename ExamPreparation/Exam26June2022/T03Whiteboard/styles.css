@@ -71,3 +71,17 @@ body {
     background-color: transparent;
     border: 2px solid #fff;
 }
+
+.main-header-article>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hdr-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+section {
+    height: 500px;
+}
