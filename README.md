@@ -1,7 +1,7 @@
 # About
 
 The idea behind HTML & CSS course is really simple. Main focus is to give fundamental knowledge about web technologies and more specific about HTML & CSS. The students learn about web development, web browsers, tools for HTML / CSS / DOM development and upgrade practicall skills for using HTML & CSS. The course contains topics like HTML tags, paragraphs, lists, tables, forms, controls and semantic HTML. CSS slectors and styles, classes, presentation rules, positioning rules and layouts in CSS. Course covers latest standarts of HTML5 & CSS3. 
-
+ 
 # Course Overview
 
 - <a href="#INTRO">Introduction to HTML & CSS</a>
